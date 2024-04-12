@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.labelName,
+.labelPhone {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.formInput {
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+}
+
+.btnSubmit {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  background-color: #0f73d79c;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btnSubmit:hover,
+.btnSubmit:focus {
+  background-color: #0f73d7;
+}

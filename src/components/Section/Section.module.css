@@ -1,0 +1,7 @@
+.sectionBook {
+  width: 100vw;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
